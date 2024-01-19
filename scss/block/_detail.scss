@@ -1,0 +1,19 @@
+.detail_card {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+.detail_img {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
+.detail_title {
+    font-weight: 700;
+    margin-right: 8px;
+}
+.detail_text {
+    margin-bottom: 5px;
+    line-height:  25px;;
+}

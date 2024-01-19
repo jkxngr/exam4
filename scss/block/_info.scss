@@ -1,0 +1,93 @@
+.shipping {
+  color: #22262a;
+  font-size: 27px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &::before {
+    content: "";
+    width: 100px;
+    height: 65px;
+    background-image: url("../../img/shipping.png");
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.refund {
+  color: #22262a;
+  font-size: 27px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &::before {
+    content: "";
+    width: 68px;
+    height: 78px;
+    background-image: url("../../img/refund.png");
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.support {
+  color: #22262a;
+  font-size: 27px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &::before {
+    content: "";
+    width: 67px;
+    height: 88px;
+    background-image: url("../../img/support.png");
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+.infos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 123px;
+  margin-bottom: 137px;
+}
+.info_form {
+  position: relative;
+  max-width: 633px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 53px;
+}
+.info_search {
+  width: 100%;
+  padding: 22px;
+  // border-color: #bcddfe;
+  outline-color: #bcddfe;
+}
+.info_btn {
+  padding: 17px 27px;
+  background-color: #40bfff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  width: 127px;
+  height: 64px;
+  right: 0;
+}
+.icon_block {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.info_icon {
+  width: 25px;
+  height: 25px;
+}
+@media screen and (max-width:650px) {
+  .infos ,
+  .info_form{
+    display: none;
+  }
+}

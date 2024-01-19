@@ -1,0 +1,123 @@
+.hero_cards {
+  display: flex;
+}
+.hero_card_title {
+  width: 202px;
+  color: #223263;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.5px;
+}
+.hero_card_price {
+  color: #40bfff;
+  line-height: 180%; /* 54px */
+  letter-spacing: 0.5px;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+}
+.hero_card_price_top {
+  color: #40bfff;
+  line-height: 180%; /* 54px */
+  letter-spacing: 0.5px;
+  // text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+}
+.price_item {
+  color: #40bfff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 180%; /* 54px */
+  letter-spacing: 0.5px;
+}
+.hero_card_title_block {
+  // margin-bottom: 214px;
+  display: flex;
+}
+.hero_card {
+  margin-bottom: 65px;
+  width: 417px;
+  height: 358px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 29px 22px 29px 52px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -50px;
+  background-color: #F6F6F6;
+  &:hover {
+    background-color: #e2e2e2;
+  }
+}
+.hero_section_mobile {
+  display: none;  
+}
+@media screen and (max-width:1250px) {
+  .hero_cards {
+    display: none;
+  }
+}
+@media screen and (max-width:750px) {
+  .hero_cards {
+    display: none;
+  }
+  .hero_section_mobile {
+    display: block;
+  }
+}
+.hero_card_image {
+  width: 330px;
+  height: 150px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.hero_img {
+  overflow: hidden;
+}
+.hero_price_block {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  padding: 0px 70px;
+}
+.hero_card_real_price {
+  color: #9098b1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+  text-decoration: line-through;
+}
+.hero_card_discount {
+  color: #fb7181;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+
+
+
+/////////////////////////////////////
+
+.slick_list {
+  overflow: hidden;
+}
+.slick-track {
+  display: flex;
+}
+.slick-arrow {
+  display: block;
+  font-size: 0;
+}
+.slick-dots {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50%;
+}
